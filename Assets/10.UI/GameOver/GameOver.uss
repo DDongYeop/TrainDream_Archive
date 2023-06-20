@@ -1,0 +1,16 @@
+.button {
+    flex-grow: 1;
+    font-size: 63px;
+    -unity-font: url('project://database/Assets/99.Others/Font/NEXONLv1GothicRegular.ttf?fileID=12800000&guid=198505bf9d343334385e3e989ccd1cf8&type=3#NEXONLv1GothicRegular');
+    flex-basis: 50%;
+}
+
+.GameOverPanel {
+    bottom: 100%;
+    transition-duration: 0.2s;
+    transition-delay: 0.3s;
+}
+
+.GameOverPanel.Show {
+    bottom: 0;
+}

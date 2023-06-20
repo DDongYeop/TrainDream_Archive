@@ -1,0 +1,57 @@
+.card {
+    width: 475px;
+    height: 750px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    bottom: 100%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out-bounce;
+    transition-delay: 0.15s;
+}
+
+.card.on {
+    bottom: 0;
+}
+
+.card > #ImageBox {
+    flex-basis: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > #ImageBox > #Image {
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    width: 375px;
+    height: 375px;
+    position: absolute;
+}
+
+.card > #NameBox {
+    flex-basis: 12.5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > #NameBox > #Name {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    -unity-font-style: bold;
+    -unity-font: url('project://database/Assets/99.Others/Font/NEXONLv1GothicBold.ttf?fileID=12800000&guid=bc4b92d679d321747bd355393ac5a487&type=3#NEXONLv1GothicBold');
+}
+
+.card > #InfoBox {
+    flex-basis: 27.5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > #InfoBox > #Info {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    -unity-font: url('project://database/Assets/99.Others/Font/NEXONLv1GothicRegular.ttf?fileID=12800000&guid=198505bf9d343334385e3e989ccd1cf8&type=3#NEXONLv1GothicRegular');
+}

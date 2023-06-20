@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/10.UI/GameOver/GameOver.uss?fileID=7433441132597879392&amp;guid=9d674ca0f5cc6e74ca076a2ccdbf3492&amp;type=3#GameOver" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center;">
+        <ui:VisualElement name="BackGround" class="GameOverPanel" style="background-color: rgb(221, 221, 221); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); width: 80%; height: 80%; border-top-left-radius: 70px; border-bottom-left-radius: 70px; border-top-right-radius: 70px; border-bottom-right-radius: 70px; padding-left: 75px; padding-right: 75px; padding-top: 75px; padding-bottom: 75px;">
+            <ui:Label tabindex="-1" text="GAMEOVER" display-tooltip-when-elided="true" name="GameOverLabel" style="-unity-font-definition: url(&apos;project://database/Assets/99.Others/Font/NEXONLv1GothicBold%20SDF.asset?fileID=11400000&amp;guid=05a4f25d7cbe3d646807971baa814387&amp;type=2#NEXONLv1GothicBold SDF&apos;); font-size: 169px; color: rgb(0, 0, 0); -unity-text-align: middle-center;" />
+            <ui:VisualElement name="LivingTime" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-basis: 7%; margin-right: 175px;">
+                <ui:Label tabindex="-1" text="Living time : 00:00:00" display-tooltip-when-elided="true" name="LivingTimeTxt" style="-unity-text-align: upper-right; font-size: 27px; -unity-font: url(&apos;project://database/Assets/99.Others/Font/NEXONLv1GothicLight.ttf?fileID=12800000&amp;guid=ceb0f9e3c042c1248b3b342461d5fcd7&amp;type=3#NEXONLv1GothicLight&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-top: 250px; flex-direction: row; margin-left: 175px; margin-right: 175px; margin-bottom: 25px;">
+                <ui:Button text="Title" display-tooltip-when-elided="true" name="TitleButton" class="button" />
+                <ui:Button text="ReStart" display-tooltip-when-elided="true" name="ReStartButton" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

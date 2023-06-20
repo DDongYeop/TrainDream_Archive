@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52a2f0e969ec5a44ac0f64e2ee7a165, type: 3}
+  m_Name: Train04_Passenger
+  m_EditorClassIdentifier: 
+  Damage: 2
+  CoolTime: 0
+  Visual: {fileID: 3483533435493978819, guid: 6d7d00107ee698548a3241735c3c0608, type: 3}
+  Texture: {fileID: 8400000, guid: 253516800661f194c944af065fb35dff, type: 2}
+  Name: Passenger
+  Info: "\uC2DC\uAC04\uC774 \uC9C0\uB0A0\uB54C\uB9C8\uB2E4 \\nHP\uC640 \uACBD\uD5D8\uCE58\uAC00
+    \uC99D\uAC00\uD569\uB2C8\uB2E4. "

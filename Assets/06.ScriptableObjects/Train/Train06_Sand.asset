@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52a2f0e969ec5a44ac0f64e2ee7a165, type: 3}
+  m_Name: Train06_Sand
+  m_EditorClassIdentifier: 
+  Damage: 10
+  CoolTime: 0
+  Visual: {fileID: 154901928187602009, guid: 17377526e72616147900b073c501f355, type: 3}
+  Texture: {fileID: 8400000, guid: 741e490438cecfa49bf5fdf46c7acb2d, type: 2}
+  Name: Sand
+  Info: "\uC8FC\uBCC0\uC73C\uB85C \uBAA8\uB798\uBC14\uB78C\uC774 \uBD88\uC5B4\uC635\uB2C8\uB2E4. "

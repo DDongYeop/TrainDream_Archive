@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Container" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-basis: 100%; justify-content: flex-end; border-left-width: 50px; border-right-width: 100px; border-top-width: 0; border-bottom-width: 0; align-items: flex-start; align-self: stretch;">
+        <ui:VisualElement name="UI" picking-mode="Ignore" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-basis: 100%;">
+            <ui:VisualElement name="LevelBox" picking-mode="Ignore" style="background-color: rgba(0, 0, 0, 0.39); flex-basis: 9%; margin-top: 7.5px; margin-bottom: 7.7px; margin-right: 7.5px;">
+                <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="Level" picking-mode="Ignore" style="font-size: 38px; -unity-font-style: bold; color: rgb(255, 255, 255); -unity-text-align: upper-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="BackGround" picking-mode="Ignore" style="flex-grow: 0; background-color: rgb(0, 0, 0); flex-basis: 91%; flex-direction: row; border-left-width: 9px; border-right-width: 9px; border-top-width: 9px; border-bottom-width: 9px; border-top-left-radius: 12.5px; border-bottom-left-radius: 12.5px; border-top-right-radius: 12.5px; border-bottom-right-radius: 12.5px; height: 46px; top: 8px;">
+                <ui:VisualElement name="FillArea" picking-mode="Ignore" style="background-color: rgb(255, 255, 255); align-items: flex-start; border-top-left-radius: 6.25px; border-bottom-left-radius: 6.25px; border-top-right-radius: 6.25px; border-bottom-right-radius: 6.25px; flex-basis: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
